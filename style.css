@@ -1,4 +1,10 @@
-.container {
+.first-page {
+  background-image: url(src/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
   display: flex;
   border: 10px;
   flex-direction: row;
@@ -8,15 +14,10 @@
 }
 
 .logo {
-  width: 76px;
-  height: 20px;
-  top: 10px;
-  left: 12px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 20px;
   color: #6070ff;
 }
 
@@ -26,17 +27,12 @@
 }
 
 .headline {
-  background-image: url(src/header-shapes-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-flow: column;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  min-height: 100vh;
-  margin-block-end: 20rem;
-  margin: auto;
+  padding: 10px;
 }
 
 .title {
@@ -44,7 +40,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  line-height: 52px;
   color: #172b4d;
 }
 
@@ -53,14 +48,13 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
   color: #344563;
 }
 
 .line {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 16px;
   color: #7f8cff;
 }
@@ -68,7 +62,7 @@
 .social-media-icons {
   display: flex;
   flex-direction: row;
-  gap: 12px;
+  gap: 10px;
   padding-inline-start: 10px;
 }
 
@@ -88,7 +82,7 @@ ul {
 
 .msign {
   width: 20px;
-  height: 17px;
+  height: 19px;
 }
 
 .github {
