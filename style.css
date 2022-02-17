@@ -158,6 +158,12 @@ ul {
   margin-right: 10px;
 }
 
+.role::before {
+  content: url(src/Counter.png);
+  width: 14px;
+  padding-right: 5px;
+}
+
 .year {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -165,6 +171,12 @@ ul {
   font-size: 13px;
   color: #7a869a;
   margin-right: 10px;
+}
+
+.year::before {
+  content: url(src/Counter.png);
+  width: 14px;
+  padding-right: 5px;
 }
 
 .projectDescription {
