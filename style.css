@@ -1,0 +1,96 @@
+.first-page {
+  background-image: url(src/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  border: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.headline {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #172b4d;
+}
+
+.paragraph {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #344563;
+}
+
+.line {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7f8cff;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-inline-start: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin {
+  width: 20px;
+  height: 20px;
+}
+
+.msign {
+  width: 20px;
+  height: 19px;
+}
+
+.github {
+  width: 18px;
+  height: 20px;
+}
+
+.finger {
+  width: 15px;
+  height: 20px;
+}
