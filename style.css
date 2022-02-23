@@ -334,3 +334,81 @@ button {
   line-height: 20px;
   color: #253858;
 }
+
+.contact-form {
+  background-image: url(src/Contact-me.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactContainer {
+  background-image: url(src/contact-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.form-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.content {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+  margin: 20px;
+}
+
+#name,
+#email {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  width: 90%;
+}
+
+#message {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 90%;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  padding: 12px;
+  color: #396df2;
+}
