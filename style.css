@@ -452,6 +452,7 @@ button {
     margin-top: 150px;
     margin-left: 140px;
   }
+
   .header-container {
     display: inline;
   }
@@ -550,6 +551,7 @@ button {
 
   .mySkills {
     grid-area: 1/2/3/3;
+    width: 60%;
   }
 
   .projects .projectsReverse {
@@ -574,10 +576,6 @@ button {
     margin-left: 18px;
     width: 50%;
     height: 16%;
-  }
-
-  .mySkills {
-    width: 60%;
   }
 
   .skillsTitle {
