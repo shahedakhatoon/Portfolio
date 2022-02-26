@@ -489,7 +489,7 @@ button {
   .headline {
     background-image: url('desk/Headerbg.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-left: 140px;
     padding-bottom: 150px;
     border-bottom-left-radius: 165px;
