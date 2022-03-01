@@ -1,8 +1,6 @@
 # Portfolio
 
-This is a Mobile version Portfolio.
-
-![127 0 0 1_5500_Portfolio_index html (2)](https://user-images.githubusercontent.com/73285210/154484081-d6095d7b-8f04-4299-9cf6-77156da3325c.png)
+This is my Portfolio Website.
 
 ## Built With
 
@@ -10,11 +8,9 @@ HTML, and CSS
 
 ## Live Demo (if available)
 
-[Live Demo Link](http://127.0.0.1:5500/Portfolio/index.html)
+[Live Demo Link](https://shahedakhatoon.github.io/Portfolio)
 
 ## Getting Started
-
-This is a simple project that displays the template I'll be using for my Portfolio Website.
 
 To get a local copy up and running follow these simple example steps.
 
