@@ -3,7 +3,7 @@ const sideNav = document.querySelector('.mobileNav');
 const menuLinks = document.querySelectorAll('.menuMobile');
 const head = document.querySelector('.head');
 const mylogo = document.querySelector('.logo');
-const myhtml = document.querySelector('.scroll')
+const myhtml = document.querySelector('.scroll');
 
 const openMenu = () => {
   sideNav.classList.add('mobileNavActive');
@@ -18,7 +18,7 @@ const closeMenu = () => {
   head.classList.remove('blur');
   menuIcon.classList.remove('vanish');
   mylogo.classList.remove('blur');
-  myhtml.classList.remove('bodyscroll')
+  myhtml.classList.remove('bodyscroll');
 };
 
 menuIcon.addEventListener('click', openMenu);
