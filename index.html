@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Shaheda's Portfolio</title>
 </head>
-<body>
+<body class="scroll">
     <div class="first-page">
         <header class="header-container">
             <a class="logo">My Logo</a>
     
             <nav class="menu-icon">
-                <img src="src/Icon-Menu.png" alt="menu"/>
+                <img src="src/Icon-Menu.png" alt="menu" class="nav-menu"/>
+            
+              <ul class="mobileNav">
+                <li class="menuMobile closeBtn"><a  class="link">&times;</a></li>
+                <li class="menuMobile"><a href="#works-section" class="link">Portfolio</a></li>
+                <li class="menuMobile"><a href="#about-section" class="link">About</a></li>
+                <li class="menuMobile"><a href="#contact-form" class="link">Contact</a></li>
+              </ul>
             </nav>
 
             <nav class="navDesk">
@@ -337,15 +344,15 @@
             <form action="https://formspree.io/f/mbjwowny" method="post">
             <ul class="inputs">
                 <li>
-                    <label for="name">Enter your name here</label>
+                    <label for="name"></label>
                     <input type="text" id="name" name="name" placeholder="Enter your name here ..." maxlength="30" required />
                 </li>
                 <li>
-                    <label for="email">Enter your email here</label>
+                    <label for="email"></label>
                     <input type="email" id="email" name="email" placeholder="Enter your e-mail here ..." required />
                 </li>
                 <li>
-                    <label for="message">Give a message</label>
+                    <label for="message"></label>
                     <textarea id="message" placeholder="Type your message here ..." maxlength="500" required></textarea>
                 </li>
                 <li class="formSubmit">
@@ -356,5 +363,6 @@
          </div>
        </footer>
     
+    <script src="scripts/mobile-menu.js"></script>
 </body>
 </html>
