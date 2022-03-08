@@ -441,6 +441,10 @@ button {
   display: none;
 }
 
+.bodyscroll {
+  overflow: hidden;
+}
+
 .mobileNav {
   height: 100%;
   width: 0;
