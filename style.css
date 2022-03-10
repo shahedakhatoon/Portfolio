@@ -501,13 +501,14 @@ button {
 @media screen and (max-width: 480px) {
   .card5,
   .card6,
-  .card7 {
+  .card7,
+  .card8 {
     display: none;
   }
 
-  .image {
+  /*.image {
     display: none;
-  }
+  }*/
 }
 
 @media screen and (min-width: 992px) {
@@ -592,7 +593,8 @@ button {
 
   .card2,
   .card3,
-  .card4 {
+  .card4,
+  .card1 {
     display: none;
   }
 
