@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+       
     <title>Shaheda's Portfolio</title>
 </head>
 <body class="scroll">
@@ -16,8 +18,8 @@
                 <img src="src/Icon-Menu.png" alt="menu" class="nav-menu"/>
             
               <ul class="mobileNav">
-                <li class="menuMobile closeBtn"><a  class="link">&times;</a></li>
-                <li class="menuMobile"><a href="#works-section" class="link">Portfolio</a></li>
+                <li class="menuMobile closeBtn"><a href="javascript:void(0)" class="link">&times;</a></li>
+                <li class="menuMobile"><a href="#works" class="link">Portfolio</a></li>
                 <li class="menuMobile"><a href="#about-section" class="link">About</a></li>
                 <li class="menuMobile"><a href="#contact-form" class="link">Contact</a></li>
               </ul>
@@ -64,207 +66,48 @@
         </section>
     </div>
 
-    <section class="works-section" id="works-section">
-        <ul class="card1">
-            <li class="project">
-                <img class="mobileimg" src="src/SnapshootPortfolio.png" alt="Snapshot">
-                <img class="image" src="desk/SnapshootPortfolio4.png" alt="Snapshot">
-                <div class="description">
-                    <h2 class="workstitle">Tonic</h2>
-                    <div class="info">
-                        <p class="subTitle">CANOPY</p>
-                        <ul class="infoContainer">
-                            <li class="role">Back End Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">A daily selection of privately personalized 
-                        reads; no accounts or sign-ups required.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
+    <section id="works" class="works-section"> </section>
 
-        <ul class="card2">
-            <li class="project">
-                <img class="image3" src="src/SnapshootPortfolio1.png" alt="Snapshot">
-                <div class="description reverse">
-                    <h2 class="workstitle">Multi-Post Stories</h2>
-                    <div class="info">
-                        <p class="subTitle">CANOPY</p>
-                        <ul class="infoContainer">
-                            <li class="role">Back End Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">A daily selection of privately personalized 
-                        reads; no accounts or sign-ups required.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="card3">
-            <li class="project">
-                <img src="src/SnapshootPortfolio2.png" alt="Snapshot">
-                <div class="description">
-                    <h2 class="workstitle">Tonic</h2>
-                    <div class="info">
-                        <p class="subTitle">CANOPY</p>
-                        <ul class="infoContainer">
-                            <li class="role">Back End Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">A daily selection of privately personalized 
-                        reads; no accounts or sign-ups required.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-
-        <ul class="card4">
-            <li class="project">
-                <img class="image2" src="src/SnapshootPortfolio3.png" alt="Snapshot">
-                <div class="description">
-                    <h2 class="workstitle">Multi-Post Stories</h2>
-                    <div class="info">
-                        <p class="subTitle">CANOPY</p>
-                        <ul class="infoContainer">
-                            <li class="role">Back End Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">A daily selection of privately personalized 
-                        reads; no accounts or sign-ups required.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-        <ul class="card5">
-            <li class="project">
-                <img class="imageReverse" src="desk/SnapshootPortfolio5.png" alt="Snapshot">
-                <div class="descriptionReverse">
-                    <h2 class="workstitle">Multi-Post Stories</h2>
-                    <div class="info">
-                        <p class="subTitle">FACEBOOK</p>
-                        <ul class="infoContainer">
-                            <li class="role">Full Stack Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="ruby">Ruby on rails</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-        <ul class="card6">
-            <li class="project">
-                <img class="image 2" src="desk/SnapshootPortfolio6.png" alt="Snapshot">
-                <div class="description">
-                    <h2 class="workstitle">Facebook 360</h2>
-                    <div class="info">
-                        <p class="subTitle">FACEBOOK</p>
-                        <ul class="infoContainer">
-                            <li class="role">Full Stack Dev</li>
-                            <li class="year">2015</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="ruby">Ruby on rails</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-        <ul class="card7">
-            <li class="project">
-                <img class="imageReverse" src="desk/SnapshootPortfolio7.png" alt="Snapshot">
-                <div class="descriptionReverse">
-                    <h2 class="workstitle">Uber Navigation</h2>
-                    <div class="info">
-                        <p class="subTitle">UBER</p>
-                        <ul class="infoContainer">
-                            <li class="role">Lead Developer</li>
-                            <li class="year">2018</li>
-                        </ul>
-                    </div>
-                    <p class="projectDescription">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
-                    </p>
-                    <div class="tags">
-                        <ul class="tagsFlex">
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="javascript">Javascript</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="viewProject">
-                        See Project
-                    </button>
-                </div>
-            </li>
-        </ul>
-    </section>
+    <div class="modal vanish">
+      <div class="modalContainer">
+        <span class="cross">&times;</span>
+        <h3 class="modalTitle">.</h3>
+        <div class="info modalInfo">
+          <p class="subTitle modalSubTitle">CANOPY</p>
+          <ul class="infoContainer">
+            <li class="role modalRole">Back End Dev</li>
+            <li class="year modalYear">2015</li>
+          </ul>
+        </div>
+        <div class="imgContainer">
+          <img src="#" class="modalImg" alt="Project Image" />
+        </div>
+        <div class="modalDescContainer projectDescContainer">
+          <p class="modalDesc projectDescription"></p>
+          <div class="modalView">
+            <div class="tags modalTagsList">
+              <ul class="tagsFlex modalTags">
+    
+              </ul>
+            </div>
+            <div class="modalBtns">
+              <ul class="btnChild">
+                <li class="btnList">
+                  <form class="btnDemo" action="#">
+                    <button type="submit" class="viewProject">See live <img src="src/Sourcelink.png" alt="live demo" class="btnImg" /></button>
+                  </form>
+                </li>
+                <li class="btnList">
+                  <form class="btnSrc" action="#">
+                    <button type="submit" class="viewProject">See Source <img src="src/Githublink.png" alt="source" class="btnImg" /></button>
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <section class="about-section" id="about-section">
         <div class="about-hero">
@@ -341,7 +184,7 @@
         <div class="contactContainer">
             <h2 class="form-title">Contact me</h2>
             <p class="content">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-            <form action="https://formspree.io/f/mbjwowny" method="post">
+            <form action="https://formspree.io/f/mbjwowny" class="contactForm" method="post">
             <ul class="inputs">
                 <li>
                     <label for="name"></label>
@@ -364,5 +207,6 @@
        </footer>
     
     <script src="scripts/mobile-menu.js"></script>
+    <script src="scripts/dynamicmodal.js"></script>
 </body>
 </html>

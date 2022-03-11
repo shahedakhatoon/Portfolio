@@ -1,0 +1,154 @@
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalDescContainer {
+  display: grid;
+}
+
+.modalTitle {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #172b4d;
+}
+
+.modalTagsList {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  float: none;
+}
+
+.modalTags {
+  justify-content: flex-start;
+}
+
+.show {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.modalContainer {
+  background-color: #fefefe;
+  margin: 20% 3%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  border-radius: 16px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+  height: auto !important;
+}
+
+@keyframes animatetop {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cross {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.cross:hover,
+.cross:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalBtns {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -19px 0 29px 0;
+}
+
+.btnChild {
+  display: flex;
+  justify-content: center;
+}
+
+.btnList {
+  padding: 8px;
+  width: auto;
+}
+
+.btnList button {
+  display: flex;
+}
+
+.btnSrc {
+  justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+  .projectDescription {
+    font-size: small;
+  }
+
+  .project {
+    width: 120%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .modalView {
+    margin-left: 20px;
+  }
+
+  .modalDescContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modalDesc {
+    width: 75%;
+    padding-left: 10px;
+  }
+
+  .btnList button {
+    width: 150px;
+  }
+
+  .btnList {
+    margin-right: 10%;
+  }
+
+  .modalImg {
+    width: 80%;
+    margin-left: 5%;
+    height: 100%;
+  }
+
+  .imgContainer {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-color: #dcdce0;
+  }
+
+  .modalContainer {
+    width: 60%;
+    margin: 2% 15%;
+  }
+}

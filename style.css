@@ -215,6 +215,19 @@ p {
   margin-left: -40px;
 }
 
+.tag {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
 .html {
   padding: 4px 12px;
   border-radius: 8px;
@@ -268,6 +281,11 @@ button {
   display: inline-block;
   text-align: center;
   align-items: flex-start;
+}
+
+button:active {
+  background-color: #2230d2;
+  color: white;
 }
 
 .viewProject {
@@ -501,13 +519,14 @@ button {
 @media screen and (max-width: 480px) {
   .card5,
   .card6,
-  .card7 {
+  .card7,
+  .card8 {
     display: none;
   }
 
-  .image {
+  /* .image {
     display: none;
-  }
+  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -592,7 +611,8 @@ button {
 
   .card2,
   .card3,
-  .card4 {
+  .card4,
+  .card1 {
     display: none;
   }
 
