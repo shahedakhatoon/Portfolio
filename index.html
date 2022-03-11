@@ -186,7 +186,7 @@
         <div class="contactContainer">
             <h2 class="form-title">Contact me</h2>
             <p class="content">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-            <form action="https://formspree.io/f/mbjwowny" class="contactForm" method="post">
+            <form action="https://formspree.io/f/mbjwowny" id="contactForm" method="post">
             <ul class="inputs">
                 <li>
                     <label for="name"></label>
@@ -201,7 +201,7 @@
                     <textarea id="message" class="contactMessage" placeholder="Type your message here ..." maxlength="500" required></textarea>
                 </li>
                 <li class="formSubmit">
-                  <p class="validationMessage"></p>
+                  <p id="validationMessage"></p>
                     <input type="submit" class="submitButton" value="Get In Touch" />
                 </li>
             </ul>
