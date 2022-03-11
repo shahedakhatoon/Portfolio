@@ -1,15 +1,26 @@
-const contactForm1 = document.querySelector('.contactForm');
-contactForm1.addEventListener('input', () => {
-  const formInfo = {
-    name: document.querySelector('.contactName').value,
-    email: document.querySelector('.emailAddress').value,
-    message: document.querySelector('.contactMessage').value,
-  };
+const form = document.getElementById('contactform');
+let data = {
+  name: '',
+  email: '',
+  message: '',
+};
 
-  localStorage.setItem('contactFormContent', JSON.stringify(formInfo));
+window.onload = () => {
+  if (localStorage.getItem('data')) {
+    data = JSON.parse(localStorage.getItem('data'));
+    form.name.value = data.name;
+    form.email.value = data.email;
+    form.msg.value = data.message;
+  }
+};
+
+form.addEventListener('submit', () => {
+  data.name = form.name.value;
+  data.email = form.email.value;
+  data.message = form.msg.value;
+  localStorage.setItem('data', JSON.stringify(data));
 });
 
-const formObj = JSON.parse(localStorage.getItem('contactFormContent'));
-document.querySelector('.contactName').value = formObj.name;
-document.querySelector('.emailAddress').value = formObj.email;
-document.querySelector('.contactMessage').value = formObj.message;
+form.addEventListener('reset', () => {
+  window.localStorage.clear();
+});
